@@ -13,3 +13,8 @@ const intervalId = setInterval(function() {
     }
 }, 2000);
 
+const h2 = document.querySelector('h2');
+const intervalId = setInterval(function() {
+    h2.style.color = yellow;
+    
+})
